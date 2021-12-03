@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.navBar{
+    position: absolute;
+    width:100%;
+    margin: auto;
+}
+.top{
+    background-color: red;
+    padding: 10px;
+}
+.top ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top ul li{
+    margin: 0px 10px;
+}
+.mid{
+    text-align: center;
+}
+.mid h1{
+    padding:10px;
+}
+.bot{
+    display:flex;
+}
+.bar3 i{
+    margin-left: 40px;
+    font-size: 40px;
+}
+.ic{
+    display:flex;
+    position: absolute;
+    right:0;
+    margin-right: 40px;
+}
+.cart i{
+    margin-top:5px;
+    margin-left:40px;
+    margin-right:10px;
+    font-size: 30px;  
+}
+.cart p{
+    font-size:20px;
+}
+.acc i{
+    margin-top:5px;
+    margin-left:40px;
+    margin-right:10px;
+    font-size: 30px;  
+}
+.acc p{
+    font-size:20px;
+}
+.wrap{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left:2%;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.details{
+    padding:5%;
+}
+.details h1{
+    padding-bottom:5%;
+}
+.details h3{
+    padding-bottom:3%;
+}
+.details p{
+    padding-bottom:5%;
+}
+.desc{
+    padding-top:10%;
+}
+.content{
+    width:100%;
+}
+h1.category{
+    padding:20px;
+}
+.block{
+    margin: 10px 20px;
+    height:400px;
+    width: 300px;
+    filter: drop-shadow(2px 2px 4px #acacac);
+}
+.items{
+    display:flex;
+}
+.block img{
+    width:100%;
+    height:70%;
+}
+.block p{
+    padding: 5px 10px;
+}
+.block p.money{
+    color:orange;
+}
+.star{
+    padding:10px;
+    display:flex;
+}

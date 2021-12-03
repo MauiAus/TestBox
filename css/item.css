@@ -1,0 +1,53 @@
+.bg{
+    width:100%;
+    height:200px;
+}
+.buySec{
+    width:100%;
+    height:600px;
+}
+.mbody{
+    width:80%;
+    height:100%;
+    margin: 0 10%;
+    display: flex;
+    filter: drop-shadow(2px 2px 4px #acacac);
+}
+.mbody .left{
+    width:45%;
+    text-align: center;
+}
+.mbody .left img{
+    height:90%;
+    margin-left:auto;
+}
+.mbody .right{
+    width:55%;
+}
+input.addt{
+    width:40px;
+    margin:0;
+}
+button.addt{
+    width:20px;
+    margin:0;
+}
+.cartBox{
+    padding-top:10%;
+}
+.buyn{
+    margin-right:40px;
+    padding: 10px 40px;
+    background-color: chocolate;
+}
+.buyn:hover{
+    background-color: yellow;
+}
+.addtc{
+    margin-right:40px;
+    padding: 10px 40px;
+    background-color: royalblue;
+}
+.addtc:hover{
+    background-color: rebeccapurple;
+}
